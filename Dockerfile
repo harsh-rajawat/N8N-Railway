@@ -1,0 +1,7 @@
+FROM n8nio/n8n
+ENV N8N_PORT=5678
+ENV PORT=5678
+ENV N8N_HOST=n8n-render-production
+ENV N8N_PROTOCOL=https
+ENV WEBHOOK_URL=n8n-render-production
+EXPOSE 5678
